@@ -35,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8A83F935242B9DEC009E0B62 /* MPConnectivityTuto.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MPConnectivityTuto.entitlements; sourceTree = "<group>"; };
 		8AA612DE242A6D770056D83E /* MPConnectivityTuto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MPConnectivityTuto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AA612E1242A6D770056D83E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8AA612E3242A6D770056D83E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -99,6 +100,7 @@
 		8AA612E0242A6D770056D83E /* MPConnectivityTuto */ = {
 			isa = PBXGroup;
 			children = (
+				8A83F935242B9DEC009E0B62 /* MPConnectivityTuto.entitlements */,
 				8AA612E1242A6D770056D83E /* AppDelegate.swift */,
 				8AA612E3242A6D770056D83E /* SceneDelegate.swift */,
 				8AA612E5242A6D770056D83E /* ViewController.swift */,
@@ -434,6 +436,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MPConnectivityTuto/MPConnectivityTuto.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 35835A3JKN;
 				INFOPLIST_FILE = MPConnectivityTuto/Info.plist;
@@ -443,6 +447,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.github.d4ryl00.MPConnectivityTuto;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -452,6 +458,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MPConnectivityTuto/MPConnectivityTuto.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 35835A3JKN;
 				INFOPLIST_FILE = MPConnectivityTuto/Info.plist;
@@ -461,6 +469,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.github.d4ryl00.MPConnectivityTuto;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
